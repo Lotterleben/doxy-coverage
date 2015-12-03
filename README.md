@@ -19,7 +19,7 @@ GENERATE_HTML=NO
 GENERATE_LATEX=NO
 ```
 
-Then, execute `doxygen -w doxygen.conf` in your source directory. It will generate an `xml` directory with the files that doxy-coverage consumes.
+Then, execute `doxygen doxygen.conf` in your source directory. It will generate an `xml` directory with the files that doxy-coverage consumes.
 
 Lastly, execute doxy-coverage with the path to the `xml` directory:
 
